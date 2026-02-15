@@ -10,12 +10,12 @@ import { useState } from "react"
 //THIS CODE SHOULD ACTUALLY BE THIS:
 //we define the sidebar component
 //this will pull out the user inputs value
-export default function Sidebar({userInput}){
+export default function Sidebar({initialMenuItems}){
 
 
   //we create a state with useState
   //The state is used to hold user input
-  let [menuItems,setMenuItems] = useState(userInput)
+  let [menuItems,setMenuItems] = useState(initialMenuItems)
 
   //This is the initial code again im just commenting it out but I would like to keep it here to look back at it if i get confused
   //let [newMenuItem, setNewMenuItem] = useState("")
